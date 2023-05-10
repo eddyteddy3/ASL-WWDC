@@ -8,10 +8,14 @@ You can also convert your actions to ASL Letters Actions to English Alphabets.
 
 Feel free to explore the project and give feedback. 
 
-## How to run? 
+## Before you run the project
 
-1. You need to install Swift Playgrounds for iPad/MacOS. 
+1. You need to install [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) for iPad/MacOS. 
 2. You need to give camera permission. 
+
+The machine learning model is not the perfect. I trained the [Hand Action Classifier](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer) Model with the [CreateML](https://developer.apple.com/machine-learning/create-ml/) 
+
+The code is also not the perfect since i coded the whole application with the model training in 2 weeks. I didn't consider the good practice because of short deadline also considering the complexity of idea. 
 
 ## Sources: 
 [https://www.kaggle.com/competitions/asl-signs/data](https://www.kaggle.com/competitions/asl-signs/data)
